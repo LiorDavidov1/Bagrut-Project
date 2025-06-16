@@ -10,4 +10,5 @@ email.message
 bcrypt
 time
 re
-tkinter/tkinter.ttk
+tkinter
+tkinter.ttk
