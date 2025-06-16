@@ -16,7 +16,16 @@ git clone https://github.com/LiorDavidov1/Bagrut-Project.git
 
 ## Getting Started
 
-### Step 1: Launch the Login System
+### Step 1: Prepare Your Excel Files
+
+Make sure the following Excel files are placed in the same directory as the code:
+
+```
+cert.pem
+key.pem
+```
+
+### Step 2: Launch the Login System
 
 Start the login GUI by running:
 ```
@@ -26,7 +35,7 @@ Enter an existing user's login details.
 
 Based on your role (student/admin), the appropriate dashboard will open.
 
-### Step 2: Use Admin Functionalities (if logged in as an admin)
+### Step 3: Use Admin Functionalities (if logged in as an admin)
 
 #### Admins can:
 
@@ -38,7 +47,7 @@ View all registered students data:
 
 - Accessible using the dashboard (button: "View All Registered Students")
 
-### Step 3: Student Functionalities
+### Step 4: Student Functionalities
 
 #### Students can:
 
