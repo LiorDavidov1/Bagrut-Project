@@ -66,21 +66,20 @@ The system includes a set of measures to ensure safety of user data and authenti
 
 This project uses several standard and third-party Python libraries:
 
-| Library        | Purpose                                                                            |
-|----------------|------------------------------------------------------------------------------------|
-| `socket`       | Communicates between the server and clients using the TCP/IP protocol.     |
-| `threading`       | Multi-process management, allowing the server to handle multiple requests simultaneously in an efficient manner.                     |
-| `tkinter`      | GUI framework for login, menus, and admin dashboard     |
-| `PIL` (Pillow) | Load and display user photos                            |
-| `bcrypt`       | Hash and verify passwords securely                      |
-| `requests`     | API requests to the Nutritionix service                 |
-| `googletrans`  | Translate API food data into Hebrew                     |
-| `googletrans`  | Translate API food data into Hebrew                     |
-| `googletrans`  | Translate API food data into Hebrew                     |
-| `googletrans`  | Translate API food data into Hebrew                     |
-| `googletrans`  | Translate API food data into Hebrew                     |
-| `googletrans`  | Translate API food data into Hebrew                     |
-| `googletrans`  | Translate API food data into Hebrew                     |
-| `googletrans`  | Translate API food data into Hebrew                     |
-| `googletrans`  | Translate API food data into Hebrew                     |
+| Library                | Purpose                                                                            |
+|------------------------|------------------------------------------------------------------------------------|
+| `socket`               | Communicates between the server and clients using the TCP/IP protocol    |
+| `threading`            | Multi-process management, allowing the server to handle multiple requests simultaneously in an efficient manner                   |
+| `json`                 | Convert between a JSON string and Python data structures to send and receive information in a uniform format between clients and the server     |
+| `logging`              | Load and display user photos                            |
+| `ssl`                  | Hash and verify passwords securely                      |
+| `pyodbc`               | API requests to the Nutritionix service                 |
+| `datetime`             | Translate API food data into Hebrew                     |
+| `smtplib`              | Translate API food data into Hebrew                     |
+| `email.message`        | Translate API food data into Hebrew                     |
+| `bcrypt`               | Translate API food data into Hebrew                     |
+| `time`                 | Translate API food data into Hebrew                     |
+| `re`                   | Translate API food data into Hebrew                     |
+| `tkinter/tkinter.ttk`  | Translate API food data into Hebrew                     |
+
 
