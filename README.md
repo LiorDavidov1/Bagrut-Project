@@ -26,7 +26,7 @@ key.pem
 ```
 ### Step 2: Launch the server
 
-Start server by running:
+Start the server by running:
 ```
 server.py
 ```
