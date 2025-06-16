@@ -66,20 +66,18 @@ The system includes a set of measures to ensure safety of user data and authenti
 
 This project uses several standard and third-party Python libraries:
 
-| Library                | Purpose                                                                            |
-|------------------------|------------------------------------------------------------------------------------|
-| `socket`               | Communicates between the server and clients using the TCP/IP protocol    |
-| `threading`            | Multi-process management, allowing the server to handle multiple requests simultaneously in an efficient manner                   |
+| Library                | Purpose                                                                                                                                         |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| `socket`               | Communicate between the server and clients using the TCP/IP protocol                                                                            |
+| `threading`            | Multi-process management, allowing the server to handle multiple requests simultaneously in an efficient manner                                 |
 | `json`                 | Convert between a JSON string and Python data structures to send and receive information in a uniform format between clients and the server     |
-| `logging`              | Load and display user photos                            |
-| `ssl`                  | Hash and verify passwords securely                      |
-| `pyodbc`               | API requests to the Nutritionix service                 |
-| `datetime`             | Translate API food data into Hebrew                     |
-| `smtplib`              | Translate API food data into Hebrew                     |
-| `email.message`        | Translate API food data into Hebrew                     |
-| `bcrypt`               | Translate API food data into Hebrew                     |
-| `time`                 | Translate API food data into Hebrew                     |
-| `re`                   | Translate API food data into Hebrew                     |
-| `tkinter/tkinter.ttk`  | Translate API food data into Hebrew                     |
-
-
+| `logging`              | Log messages during program execution, to track actions, errors, and events                                                                     |
+| `ssl`                  | Create encrypted and secure communication (SSL/TLS) between clients and the server                                                              |
+| `pyodbc`               | Connect Python to databases and retrieve, write, and update data                                                                                |
+| `datetime`             | Work with dates and times                                                                                                                       |
+| `smtplib`              | Send emails via an SMTP server directly from Python code                                                                                        |
+| `email.message`        | Create emails conveniently, including: subject, body, address, etc                                                                              |
+| `bcrypt`               | Securely encrypt passwords                                                                                                                      |
+| `time`                 | Work with time - measure execution times, delay actions, etc                                                                                    |
+| `re`                   | Search, check, and replace texts according to advanced templates                                                                                |
+| `tkinter/tkinter.ttk`  | Build graphical user interfaces (GUI) - including windows, buttons, boxes, text, menus, etc                                                     |
