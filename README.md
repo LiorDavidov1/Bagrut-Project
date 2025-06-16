@@ -16,9 +16,9 @@ git clone https://github.com/LiorDavidov1/Bagrut-Project.git
 
 ## Getting Started
 
-### Step 1: Prepare Your Excel Files
+### Step 1: Prepare Your Files
 
-Make sure the following Excel files are placed in the same directory as the code:
+Make sure the following files are placed in the same directory as the code:
 
 ```
 cert.pem
